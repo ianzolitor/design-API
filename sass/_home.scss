@@ -1,16 +1,29 @@
 header {
 	width:100%;
 	height:100px;
-	position:absolute;
+}
+
+.hmenu {
+	display:inline-flex;
+	width:40px;
+	height:30px;
+	background-image:url("hmenu.png");
+	background-size: 100% 100%;
 }
 
 
-
+h1 {
+	font-size: 27px;
+	text-align: center;
+}
+.headline-rule {
+	width:60px;
+}
 .return-display {
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-top: 125px;
+	margin-top:25px;
 	margin-left: 5px;
 	margin-right:5px;
 }
@@ -24,7 +37,7 @@ header {
 .return-photo {
 	margin:0 auto;
 
-	width:250px;
+	width:220px;
 	height:325px;
 	margin:5px;
 
@@ -39,7 +52,7 @@ header {
 }	
 
 .return-title {
-	max-width: 250px;
+	max-width: 220px;
 	font-size: 27px;
 	margin-top:5px;
 	text-align:center;
@@ -54,4 +67,10 @@ header {
 	font-size: 14px;
 	color:grey;
 	text-align: center;
+}
+
+
+footer {
+	width:100%;
+	height:200px;
 }
