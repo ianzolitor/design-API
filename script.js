@@ -1,6 +1,17 @@
 var infoSection = document.getElementsByClassName("return-display")[0]
+var hmenu = document.getElementsByClassName("hmenu")[0]
+
+hmenu.addEventListener("mouseover", function(event){
+	event.target.style.cursor = "pointer"
+})
+hmenu.addEventListener("click", function () {
+	console.log(event)
+})
+
+function openMenu () {
 
 
+}
 
 $.ajax({
 	url: "https://api-practice-wdi.herokuapp.com/posts",
